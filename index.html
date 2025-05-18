@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Memory Game</title>
+</head>
+
+<body>
+    <h1>Pair Me</h1>
+
+    <div class="container">
+        <div class="cards">
+            <div class="card" >
+                <div class="card-inner">
+                    <div class="card-front">
+                        Click me!
+                    </div>
+                    <div class="card-back">
+                        <img src="./cherry.png" alt="Cherry" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card"  >
+                <div class="card-inner">
+                    <div class="card-front">
+                        Click me!
+                    </div>
+                    <div class="card-back">
+                        <img src="./grape.png" alt="grape" />
+                    </div>
+                </div>
+            </div>
+            <div class="card" >
+                <div class="card-inner">
+                    <div class="card-front">
+                        Click me!
+                    </div>
+                    <div class="card-back">
+                        <img src="./mango.png" alt="mango" />
+                    </div>
+                </div>
+            </div>
+            <div class="card" >
+                <div class="card-inner">
+                    <div class="card-front">
+                        Click me!
+                    </div>
+                    <div class="card-back">
+                        <img src="./pineapple.png" alt="pineapple" />
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="cards">
+            <div class="card" >
+                <div class="card-inner">
+                    <div class="card-front">
+                        Click me!
+                    </div>
+                    <div class="card-back">
+                        <img src="./cherry.png" alt="Cherry" />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card" >
+                <div class="card-inner">
+                    <div class="card-front">
+                        Click me!
+                    </div>
+                    <div class="card-back">
+                        <img src="./grape.png" alt="grape" />
+                    </div>
+                </div>
+            </div>
+            <div class="card" >
+                <div class="card-inner">
+                    <div class="card-front">
+                        Click me!
+                    </div>
+                    <div class="card-back">
+                        <img src="./mango.png" alt="mango" />
+                    </div>
+                </div>
+            </div>
+            <div class="card" >
+                <div class="card-inner">
+                    <div class="card-front">
+                        Click me!
+                    </div>
+                    <div class="card-back">
+                        <img src="./pineapple.png" alt="pineapple" />
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="pairs" class="pairs"></div>
+    <div id="counter" class="counter"></div> <br>
+
+    <div class="gameover">
+        Congratulations! You found all the pairs
+    </div>
+    <button onclick="shuffleCards()">Restart</button>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
